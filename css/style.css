@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+body{
+	font-family: 'Lato', sans-serif;
+	background-color: beige;
+}
+header{}
+main{
+	max-width: 850px;
+	margin: 0px auto;
+}
+.navigation{
+	padding: 20px;
+	margin:20px 0px;
+	border-radius: 5px;
+	background-color: #fff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.2);
+
+}
+.navigation-link{
+	display: inline-block;
+	padding-right: 20px;
+	
+}
+.navigation-link a{
+	padding: 10px;
+	border: 1px solid #fff;
+	text-transform: capitalize;
+	font-weight: 400;
+	color: #499c5e;
+}
+.navigation-link a:hover{
+	border: 1px solid orange;
+	border-radius: 42% 33% 42% 22%;
+	color:orange;
+}
+.content{
+	padding:60px 20px 20px 20px;
+	background: #fff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.2);
+	margin-bottom: 60px;
+}
+h1{
+	font-size: 46px;
+	font-weight: 900;
+	color:#1E212C;
+	margin-bottom: 95px;
+}
+.content-img{
+	margin-bottom: 65px;
+}
+.content-text .subtitle{
+	font-size: 20px;
+	font-weight: 700;
+}
+.content-text p{
+	line-height: 150%;
+	color: #1E212C;
+	margin-bottom: 30px;
+	font-size: 16px;
+	font-weight: 400px;
+	color: #1E212C;
+}
+.content-quote{
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 150%;
+	color: #1E212C;
+	padding: 30px 0px 40px 60px;
+}
+.content-text ul{
+	display: block;
+	margin: 0px 0px 30px 30px;
+}
+.content-text ul li{
+	font-size: 16px;
+	font-weight: 400;
+	color: #424551;
+	margin-bottom: 20px;
+}
+/* ---------------leson 6 -------------- */
+/* ------------------------------------------ */
+.lesson-conteiner{
+	padding: 60px 20px 20px 20px;
+	background-color: #1E212C;
+	margin-bottom: 20px;
+}
+.properties{
+	margin-bottom: 20px;
+}
+.properties span{
+	display: inline-block;
+	color: #fff;
+	padding:10px;
+	border-radius: 4px;
+	margin-right: 10px;
+	background-color: darkolivegreen;
+}
+.display-section{
+	border-radius: 4px;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	border: 2px solid darkolivegreen;
+	margin-bottom: 60px;
+}
+.display-section span{
+	/* width: 50%; */
+	border-radius: 4px;
+	padding: 20px ;
+	margin-bottom: 20px;
+	border: 1px solid #1E212C;
+	background-color: darkkhaki;
+}
+.display-section .span1{
+	display: block;
+}
+.display-section .span2{
+	display: inline-block;
+	background-color:dimgray;
+}
+.display-section .span3{
+	background-color: coral;
+	display: inline;
+}
+.properties{
+}
+.properties h2{
+	color: #fff;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.title .border-radius{
+	background: none;
+	border-radius: 33% 22% 11% 60%;
+	border: 1px solid goldenrod;
+}
+.title .border-radius:hover{
+	border-radius: 53% 44% 53% 11%;
+	border: 1px solid goldenrod;
+}
+.properties h2 span{
+	background: none;
+	border-radius: 12% 42% 22% 11%;
+	border: 1px solid cornflowerblue;
+}
+.properties h2 span:hover{
+	background: none;
+	border-radius: 33% 42% 62% 23%;
+	border: 1px solid cornflowerblue;
+}
+.display-section div{
+	border-radius: 5px;
+}
+.display-section .block1{
+	text-decoration: line-through;
+	text-transform: capitalize;
+	width: 300px;
+	padding: 20px;
+	background-color:rosybrown;
+	margin: 0px auto;
+}
+.display-section .block2{
+	text-decoration: overline;
+	text-transform: uppercase;
+	width: 200px;
+	padding: 20px;
+	background-color: indianred;
+	margin: 0px 0px 0px auto;
+}
+.display-section .block3{
+	text-decoration: underline;
+	text-transform: lowercase;
+	width: 400px;
+	padding: 20px;
+	background-color: saddlebrown;
+	margin-bottom: 20px;
+}
+.opacity .display-section div{
+	text-transform: none;
+	text-decoration: none;
+	margin: 20px 0px;
+	width: 400px;
+	background-color:teal;
+}
+.opacity .display-section .block1{
+	opacity:.2;
+}
+.opacity .display-section .block2{
+	opacity:.6;
+}
+.opacity .display-section .block3{
+	opacity:1;
+}
+/* --------box-shadow------------- */
+/* -------------------- */
+.box-shadow{
+	color: #1E212C;
+	padding: 60px 20px;
+	background-color:#fff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.2);
+}
+.box-shadow h2, span{
+	color: #1E212C;
+}
+.box-shadow h2 span{
+	border-radius: 33% 60% 20% 70%;
+	border-color: coral;
+	color: #1E212C;
+	background-color: none;
+}
+.box-shadow h2 span:hover{
+	border-radius: 54% 30% 12% 21%;
+	border-color: rgb(80, 127, 255);
+	color: #1E212C;
+	background-color: none;
+}
+.box-shadow .properties h2 ~ span{
+	color:#fff;
+	background-color: lightseagreen;
+}
+.box-shadow .display-section{
+	border-color: bisque;
+}
+.box-shadow .display-section div{
+	margin: 0px auto;
+	width:400px;
+	padding: 20px 0px;
+	text-decoration: none;
+	text-transform: none;
+	background-color: sandybrown;
+	margin-bottom: 10px;
+}
+.box-shadow .display-section .block1{
+	box-shadow: 1px 2px 3px green;
+}
+.box-shadow .display-section .block2{
+	box-shadow: -22px 2px 3px rgba(0,0,0,.4);
+}
+.box-shadow .display-section .block3{
+	box-shadow: inset 2px 2px 10px rgba(0,0,0,.6);
+}
